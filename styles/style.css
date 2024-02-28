@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --cor-1: #00030C;
+    --cor-2: #FFFFFF;
+    --cor-3: #167BF7; 
+    --cor-4: #C0C0C0;
+    --cor-hover: #272727;
+    /* --cor-terciaria: #22d4fd; */
+    --fonte-primaria: "Inter", sans-serif;
+    /* --fonte-secundaria: "Montserrat", sans-serif; */
+    --fonte-size_12: 0.75rem;
+    --fonte-size_14: 0.875rem; /* sempre usar relativo, para adaptação do navegador => 24px / 16 = 1.5rem*/ 
+    --fonte-size_16: 1rem;
+    --fonte-size_28: 1.75rem; 
+    --fonte-size_48: 3rem;  /* sempre usar relativo, para adaptação do navegador */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-1);
+}
+
+
+
+.alura__principal {
+    background-image: url("../assets/Background.png");   /*imagem como background */
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;  /* responsável por dividir o container em 2 colunas ou mais 33% 33% 33% */
+    grid-template-columns: 50% 50%;
+}
+
+.alura__principal__div{
+    margin: 0 6em;
+}
+
+.alura__principal__titulo1 {
+    color: var(--cor-2);
+    font-size: var(--fonte-size_28);
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    text-align: center; /* Alinha todos os elementos dentro do bloco */
+    margin-top: 7.81rem;
+}
+
+.alura__principal_combo__img {
+    margin: 1rem 0 2rem 0;  /* acima direta abaixo esquerda */
+}
+.titulo__48 {
+    color: var(--cor-2);
+    font-size: var(--fonte-size_48);
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+}
+
+.paragrafo_16 {
+    color: var(--cor-4);
+    font-size: var(--fonte-size_16);
+    font-family: var(--fonte-primaria);  
+}
+
+.alura__principal__botao1  {
+    background-color: var(--cor-3);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--cor-2);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-size_16);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.alura__principal__botao1:hover {
+    background-color: var(--orange);
+}
+
+.alura__principal__botao2 {
+    background-color: transparent;
+    border: 1px solid var(--cor-2);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--cor-2);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-size_16);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.alura__principal__botao2:hover {
+    background-color: var(--orange);
+}
+
+.alura__principal__aviso {
+    color: var(--cor-4);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-size_12);
+    text-align: center;
+    padding-top: 10px;
+}
+.alura__principal__background__img {
+    width: 100%;
+}
+
+.alura__assista{
+    display: grid;  /* responsável por dividir o container em 2 colunas ou mais 33% 33% 33% */
+    grid-template-columns: 50% 50%;
+    color: var(--cor-2);
+    margin: 10rem 10rem;
+    align-items: center;
+    text-align: left; 
+}
+
+.alura__assista__img {
+    align-items: center;
+    text-align: center;
+}
+
+.alura__telas{
+    display: grid;  /* responsável por dividir o container em 2 colunas ou mais 33% 33% 33% */
+    grid-template-columns: 50% 50%;
+    color: var(--cor-2);
+    margin: 20rem 10rem;
+    align-items: center;
+    text-align: left; 
+}
+
+
+.alura__telas__img {
+    align-items: center;
+    text-align: center;
+}
+
+.alura__telas__botao3 {
+    margin-top: 1rem;
+    background-color: var(--cor-3);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--cor-2);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-size_16);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.alura__baixe{
+    display: grid;  /* responsável por dividir o container em 2 colunas ou mais 33% 33% 33% */
+    grid-template-columns: 50% 50%;
+    color: var(--cor-2);
+    margin: 20rem 10rem;
+}
+
+.alura__baixe__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.alura__baixe__img {
+    align-items: center;
+    text-align: center;
+}
+
+.alura__dispositivos__titulo2 {
+    color: var(--cor-2);
+    font-size: var(--fonte-size_48);
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    text-align: center;
+    margin: 6rem 0 3rem 0;
+}
+
+.alura__dispositivos__list_name {
+    color: var(--cor-2);
+    font-size: var(--fonte-size_28);
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.alura__dispositivos__list{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    color: var(--cor-4);
+    font-size: var(--fonte-size_14);
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.rodape__logo {
+    padding: 40.71px;
+}
+
+.alura__rodape__link{
+    color: var(--cor-2);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-size_16);
+    text-align: center;
+    text-decoration: none;
+    margin: 0 1rem 1rem 0;
+}
+
+.alura__rodape__links a:hover {
+    color: var(--cyan);
+}
+
+.alura__rodape__links a:active {
+    color: var(--danger);
+}
+.alura__rodape__reservados {
+    margin: 1rem;
+}
+
+.alura__rodape__cnpj {
+    margin: 0 10rem 3rem 10rem;
+}
+
+@media (max-width: 1500px){   /* Se atender a condição */
+    :root { 
+        --cor-1:#00030C;
+    }
+} 
