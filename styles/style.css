@@ -24,7 +24,7 @@
     --dark: #343a40;
     --cor-1: #00030C;
     --cor-2: #FFFFFF;
-    --cor-3: #6916f7; 
+    --cor-3: #167BF7; 
     --cor-4: #C0C0C0;
     --cor-hover: #272727;
     /* --cor-terciaria: #22d4fd; */
@@ -256,8 +256,108 @@ body {
     margin: 0 10rem 3rem 10rem;
 }
 
-@media (max-width: 1500px){   /* Se atender a condição */
+@media (max-width: 768px){   /* Se atender a condição */
     :root { 
         --cor-1:#00030C;
+    }
+
+    .container {
+        background-image: none;
+        display: block;
+        margin: 0;
+        height: 50vh;
+    }
+
+    .alura__principal{
+        display: block;
+        margin: 0;
+    }
+
+    .alura__principal__div{
+        margin: 1em;
+        
+    }
+    .alura__principal_combo__img {
+        width: 20vh;
+    }
+
+    .alura__assista{
+        display: block;
+        margin: 2rem 2rem;
+        text-align: center;
+    }
+
+
+    .alura__baixe{
+        display: block;
+        margin: 10rem 1rem;
+        text-align: center;
+    }
+
+    .alura__telas__tela {
+        width: 20vh;
+    }
+    
+    .alura__telas{
+        display: block;
+        margin: 10rem 1rem;
+        text-align: center;
+    }
+
+    .alura__assista__plataformas {
+        width: 20vh;
+    }
+
+    .alura__telas__tela {
+        width: 20vh;
+        margin: 2rem;
+    }
+    .alura__baixe__note {
+        width: 20vh;
+    }
+
+    .alura__dispositivos__div__celular{
+        width: 20vh;
+    }
+    .alura__dispositivos__div__computador{
+        width: 20vh;
+    }
+    .alura__dispositivos__div__tv{
+        width: 20vh;
+    }
+
+    .alura__dispositivos {
+        text-align: center;
+    }
+    
+    .alura__dispositivos__list{
+        display: block;
+        margin: 2rem 2rem;
+        text-align: center;
+    }
+
+    .titulo__48 {
+        font-size: 28px;
+    }
+
+    .alura__dispositivos__titulo2 {
+        font-size: var(--fonte-size_28);
+    }
+
+    .alura__rodape__cnpj {
+        margin: 1rem;
+    }
+
+    .alura__rodape__link{
+        margin: 1rem;
+        display: block;
+    }
+
+    .rodape {
+        margin: 10rem 0rem;
+    }
+
+    .alura__dispositivos__list_name {
+        font-size: var(--fonte-size_16);
     }
 } 
